@@ -1,0 +1,45 @@
+{
+  "synthetic": true,
+  "description": "FREI ERFUNDEN. Keine Archivfunde, Sitzungsschlüssel oder echten Zeitungstexte. Formatbeispiel; für ausführbare Tests Test_ENPA_Offline_Demo.cmd verwenden.",
+  "records": [
+    {
+      "articleId": "DEMO-SAMPLE-0001",
+      "permalink": "https://example.invalid/enpa-demo?d=DEMO-SAMPLE-0001",
+      "category": "A",
+      "searchTerms": ["Hochwasser", "Flut"],
+      "searchString": "Hochwasser OR Flut",
+      "matchedTerm": "Hochwasser",
+      "dateFrom": "1910-06-14", "dateTo": "1910-07-04",
+      "issueDate": "1910-06-15", "falltyp": "Pilotabfrage",
+      "newspaperExcelCode": "DBU",
+      "title": "FREI ERFUNDEN Beispiel einer Flussmeldung",
+      "snippet": "FREI ERFUNDEN: Ein fiktives Hochwasser in Bern beschädigte eine erfundene Brücke."
+    },
+    {
+      "articleId": "DEMO-SAMPLE-0001",
+      "permalink": "https://example.invalid/enpa-demo?d=DEMO-SAMPLE-0001",
+      "category": "C",
+      "searchTerms": ["Dammbruch"],
+      "searchString": "Dammbruch",
+      "matchedTerm": "Dammbruch",
+      "dateFrom": "1910-06-14", "dateTo": "1910-07-04",
+      "issueDate": "1910-06-15", "falltyp": "Pilotabfrage",
+      "newspaperExcelCode": "DBU",
+      "title": "FREI ERFUNDEN Beispiel einer Flussmeldung",
+      "snippet": "FREI ERFUNDEN: Ein fiktiver Dammbruch gehörte zur selben erfundenen Flussmeldung."
+    },
+    {
+      "articleId": "DEMO-SAMPLE-0002",
+      "permalink": "https://example.invalid/enpa-demo?d=DEMO-SAMPLE-0002",
+      "category": "A",
+      "searchTerms": ["Hochwasser", "Flut"],
+      "searchString": "Hochwasser OR Flut",
+      "matchedTerm": "Flut",
+      "dateFrom": "1910-06-14", "dateTo": "1910-07-04",
+      "issueDate": "1910-06-16", "falltyp": "Pilotabfrage",
+      "newspaperExcelCode": "NZZ",
+      "title": "FREI ERFUNDEN Beispiel einer Auslandsnotiz",
+      "snippet": "FREI ERFUNDEN: Eine fiktive Flut in Frankreich verursachte erfundene Schäden."
+    }
+  ]
+}

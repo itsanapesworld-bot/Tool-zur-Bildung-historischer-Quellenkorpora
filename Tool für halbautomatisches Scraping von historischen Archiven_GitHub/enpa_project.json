@@ -1,0 +1,6 @@
+{
+  "projectId": "enpa-corpus-tool",
+  "projectVersion": "2.7.0",
+  "config": "enpa_automation/config.json",
+  "description": "Halbautomatische Bildung und Vorcodierung historischer Zeitungskorpora"
+}

@@ -1,0 +1,442 @@
+{
+  "projectVersion": "2.7.0",
+  "phaseCodingScheme": "legacy_v1",
+  "searchTermCategoryOverrides": {
+    "Dammbruch": "C",
+    "Dammbrüche": "C"
+  },
+  "compactRankingGroups": [
+    {
+      "label": "ertr*inken/-ank/-unken",
+      "terms": [
+        "ertrinken",
+        "ertrank",
+        "ertrunken"
+      ]
+    },
+    {
+      "label": "Überschemmung*en/Ueberschwemmung*en",
+      "terms": [
+        "Überschwemmung",
+        "Überschwemmungen",
+        "Ueberschwemmung",
+        "Ueberschwemmungen"
+      ]
+    },
+    {
+      "label": "ü-/uberschwemmt",
+      "terms": [
+        "überschwemmt",
+        "ueberschwemmt"
+      ]
+    },
+    {
+      "label": "Hochwasserkatastrophe*n",
+      "terms": [
+        "Hochwasserkatastrophe",
+        "Hochwasserkatastrophen"
+      ]
+    },
+    {
+      "label": "Wasserschwellung*en",
+      "terms": [
+        "Wasserschwellung",
+        "Wasserschwellungen"
+      ]
+    },
+    {
+      "label": "Wasserverheerung*en",
+      "terms": [
+        "Wasserverheerung",
+        "Wasserverheerungen"
+      ]
+    },
+    {
+      "label": "Erdschlipf*en",
+      "terms": [
+        "Erdschlipf",
+        "Erdschlipfen"
+      ]
+    },
+    {
+      "label": "Dammbr*uch /-üche",
+      "terms": [
+        "Dammbruch",
+        "Dammbrüche"
+      ]
+    },
+    {
+      "label": "Verheerung*en",
+      "terms": [
+        "Verheerung",
+        "Verheerungen"
+      ]
+    },
+    {
+      "label": "Verwüstung*en",
+      "terms": [
+        "Verwüstung",
+        "Verwüstungen"
+      ]
+    },
+    {
+      "label": "weg*geschwemmt/-schwemmen",
+      "terms": [
+        "weggeschwemmt",
+        "wegschwemmen"
+      ]
+    },
+    {
+      "label": "Hilfskomitee*s",
+      "terms": [
+        "Hilfskomitee",
+        "Hilfskomitees"
+      ]
+    },
+    {
+      "label": "Evaku*ierung/-ation",
+      "terms": [
+        "Evakuierung",
+        "Evakuation"
+      ]
+    },
+    {
+      "label": "evaku*ieren/-iert",
+      "terms": [
+        "evakuieren",
+        "evakuiert"
+      ]
+    },
+    {
+      "label": "Melioration*en",
+      "terms": [
+        "Melioration",
+        "Meliorationen"
+      ]
+    },
+    {
+      "label": "Pegel Regulierung*en",
+      "terms": [
+        "Pegel Regulierung",
+        "Pegel Regulierungen"
+      ]
+    },
+    {
+      "label": "Elementarschadenfond/Elementarschaden-Fond*s",
+      "terms": [
+        "Elementarschadenfond",
+        "Elementarschaden-Fond",
+        "Elementarschaden-Fonds"
+      ]
+    },
+    {
+      "label": "Juragewässer*korrektion/-korrektur",
+      "terms": [
+        "Juragewässerkorrektion",
+        "Juragewässerkorrektur"
+      ]
+    },
+    {
+      "label": "Gefahrenkarte*n",
+      "terms": [
+        "Gefahrenkarte",
+        "Gefahrenkarten"
+      ]
+    },
+    {
+      "label": "Reparaturarbeit*en",
+      "terms": [
+        "Reparaturarbeit",
+        "Reparaturarbeiten"
+      ]
+    },
+    {
+      "label": "Katastrophe*n",
+      "terms": [
+        "Katastrophe",
+        "Katastrophen"
+      ]
+    },
+    {
+      "label": "Naturkatastrophe*n",
+      "terms": [
+        "Naturkatastrophe",
+        "Naturkatastrophen"
+      ]
+    },
+    {
+      "label": "Klima*erwärmung/-erwaremung",
+      "terms": [
+        "Klimaerwärmung",
+        "Klimaerwaermung"
+      ]
+    },
+    {
+      "label": "Umweltkatastrophe*n",
+      "terms": [
+        "Umweltkatastrophe",
+        "Umweltkatastrophen"
+      ]
+    },
+    {
+      "label": "Renaturierung*en",
+      "terms": [
+        "Renaturierung",
+        "Renaturierungen"
+      ]
+    },
+    {
+      "label": "Renaturierungsbemühung*en",
+      "terms": [
+        "Renaturierungsbemühung",
+        "Renaturierungsbemühungen"
+      ]
+    }
+  ],
+  "activeWorkbookProfile": "research",
+  "workbook": "${PROJECT_DIR}/Arbeitsmappen/Codiermatrix_Forschung.xlsx",
+  "masterWorkbook": "${PROJECT_DIR}/Arbeitsmappen/Master_Codiermatrix_Leer.xlsx",
+  "readOnlyWorkbookProfiles": [
+    "calibration",
+    "comparison"
+  ],
+  "workbookProfiles": {
+    "calibration": {
+      "label": "Kalibrierungsdaten 1851, 1944 und 1987",
+      "path": "${PROJECT_DIR}/Arbeitsmappen/Codiermatrix_e-newspaperarchives_Naturgefahrenforschung_Kalibrierungsdaten_1851_1944_1987.xlsx",
+      "allowedFalltypen": [
+        "Kalibrierung"
+      ]
+    },
+    "comparison": {
+      "label": "Vergleichsdaten ohne Verzerrungskontext",
+      "path": "${PROJECT_DIR}/Arbeitsmappen/Codiermatrix_e-newspaperarchives_Naturgefahrenforschung_Vergleichsdaten_ohne_Verzerrungskontext.xlsx",
+      "allowedFalltypen": [
+        "Stresstest",
+        "Kontrollfall",
+        "regulärer Vergleichsfall",
+        "Pilotabfrage"
+      ]
+    },
+    "research": {
+      "label": "Eigene Forschungsdaten (leere Arbeitsdatei)",
+      "path": "${PROJECT_DIR}/Arbeitsmappen/Codiermatrix_Forschung.xlsx",
+      "allowedFalltypen": [
+        "Stresstest",
+        "Kontrollfall",
+        "regulärer Vergleichsfall",
+        "Pilotabfrage"
+      ]
+    }
+  },
+  "outputDir": "${PROJECT_DIR}/outputs/enpa_v2",
+  "captureDir": "${DOWNLOADS}",
+  "captureFilePrefix": "enpa_v2",
+  "resultsPerPage": 100,
+  "maxResultsPerQuery": "auto",
+  "pilotMaxResultsPerQuery": 100,
+  "autoInitialResultsPerQuery": 100,
+  "falltyp": "regulärer Vergleichsfall",
+  "categoriesToRun": [
+    "A-H"
+  ],
+  "includeHistoricalTermsForYearsUpTo": 1999,
+  "defaultPublications": [
+    {
+      "archiveCode": "BTB",
+      "excelCode": "BT",
+      "label": "Bieler Tagblatt"
+    },
+    {
+      "archiveCode": "DBB",
+      "excelCode": "DBU",
+      "label": "Der Bund"
+    },
+    {
+      "archiveCode": "NZZ",
+      "excelCode": "NZZ",
+      "label": "Neue Zürcher Zeitung"
+    },
+    {
+      "archiveCode": "SLB",
+      "excelCode": "SEB",
+      "label": "Seeländer Bote"
+    }
+  ],
+  "queries": [
+    {
+      "name": "Hochwasser Zentral- und Ostschweiz 1910 - Hauptuntersuchungszeitraum",
+      "eventName": "Hochwasser Zentral- und Ostschweiz 1910",
+      "eventStart": "1910-06-14",
+      "eventEnd": "1910-06-17",
+      "windowType": "primary",
+      "dateFrom": "1910-06-14",
+      "dateTo": "1910-07-04"
+    },
+    {
+      "name": "Hochwasser Zentral- und Ostschweiz 1910 - 1 Jahresjubiläum",
+      "eventName": "Hochwasser Zentral- und Ostschweiz 1910",
+      "eventStart": "1910-06-14",
+      "eventEnd": "1910-06-17",
+      "windowType": "anniversary_1",
+      "dateFrom": "1911-06-14",
+      "dateTo": "1911-06-20"
+    },
+    {
+      "name": "Hochwasser Zentral- und Ostschweiz 1910 - 5 Jahresjubiläum",
+      "eventName": "Hochwasser Zentral- und Ostschweiz 1910",
+      "eventStart": "1910-06-14",
+      "eventEnd": "1910-06-17",
+      "windowType": "anniversary_5",
+      "dateFrom": "1915-06-14",
+      "dateTo": "1915-06-20"
+    },
+    {
+      "name": "Hochwasser Zentral- und Ostschweiz 1910 - 10 Jahresjubiläum",
+      "eventName": "Hochwasser Zentral- und Ostschweiz 1910",
+      "eventStart": "1910-06-14",
+      "eventEnd": "1910-06-17",
+      "windowType": "anniversary_10",
+      "dateFrom": "1920-06-14",
+      "dateTo": "1920-06-20"
+    }
+  ],
+  "searchCategories": {
+    "A": {
+      "label": "Spezifische Naturgefahrenbegriffe",
+      "terms": [
+        "ertrinken",
+        "ertrank",
+        "ertrunken",
+        "Hochwasser",
+        "Flut",
+        "Fluth",
+        "Überschwemmung",
+        "Überschwemmungen",
+        "Ueberschwemmung",
+        "Ueberschwemmungen",
+        "überschwemmt",
+        "ueberschwemmt",
+        "Hochwasserkatastrophe",
+        "Hochwasserkatastrophen",
+        "Wassernot",
+        "Wasserschwellung",
+        "Wasserschwellungen",
+        "Wasserverheerung",
+        "Wasserverheerungen",
+        "überflutet",
+        "Wasserwut",
+        "Erdschlipf",
+        "Erdschlipfen"
+      ],
+      "historicalTerms": []
+    },
+    "B": {
+      "label": "Witterungs- und Prozessbegriffe",
+      "terms": [
+        "Unwetter",
+        "Dauerregen",
+        "Wolkenbruch",
+        "Starkregen",
+        "Starkniederschlag",
+        "Dauerniederschlag",
+        "Gewitter",
+        "Niederschlag",
+        "Schneeschmelze"
+      ],
+      "historicalTerms": []
+    },
+    "C": {
+      "label": "Schadensbegriffe",
+      "terms": [
+        "unter Wasser",
+        "Dammbruch",
+        "Dammbrüche",
+        "Verheerung",
+        "Verheerungen",
+        "Verwüstung",
+        "Verwüstungen",
+        "verwüstet",
+        "weggeschwemmt",
+        "wegschwemmen",
+        "verschlammt",
+        "verschlammen",
+        "Verschlammung"
+      ],
+      "historicalTerms": []
+    },
+    "D": {
+      "label": "Orts- und Gewässerbegriffe",
+      "enabled": false,
+      "terms": [],
+      "historicalTerms": []
+    },
+    "E": {
+      "label": "Bewältigung und Solidarität",
+      "terms": [
+        "Hilfskomitee",
+        "Hilfskomitees",
+        "Evakuierung",
+        "Evakuation",
+        "evakuieren",
+        "evakuiert"
+      ],
+      "historicalTerms": []
+    },
+    "F": {
+      "label": "Prävention / Wasserbau / Versicherung",
+      "terms": [
+        "Hochwasserschutz",
+        "Hochwasserschutzbauten",
+        "Wasserbau",
+        "Wasserbauten",
+        "Melioration",
+        "Meliorationen",
+        "Pegel Regulierung",
+        "Pegel Regulierungen",
+        "Elementarschaden",
+        "Elementarschadenfond",
+        "Elementarschaden-Fond",
+        "Elementarschaden-Fonds",
+        "Damm",
+        "Dämme",
+        "Juragewässerkorrektion",
+        "Juragewässerkorrektur",
+        "Gefahrenkarte",
+        "Gefahrenkarten",
+        "Reparaturarbeit",
+        "Reparaturarbeiten"
+      ],
+      "historicalTerms": []
+    },
+    "G": {
+      "label": "Deutungs- und Risikobegriffe",
+      "terms": [
+        "Sintflut",
+        "Sinthfluth",
+        "Sintfluth",
+        "Katastrophe",
+        "Katastrophen",
+        "Naturkatastrophe",
+        "Naturkatastrophen"
+      ],
+      "historicalTerms": []
+    },
+    "H": {
+      "label": "Umwelt- und Klimabegriffe",
+      "terms": [
+        "Klimawandel",
+        "Risikomanagement",
+        "Klimaerwärmung",
+        "Klimaerwaermung",
+        "Umweltkatastrophe",
+        "Umweltkatastrophen",
+        "Renaturierung",
+        "Renaturierungen",
+        "Renaturierungsbemühung",
+        "Renaturierungsbemühungen"
+      ],
+      "historicalTerms": []
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "scope": "Beispielhafte Suchkatalogentscheidungen ohne empirische Kalibrierungsdaten",
+  "decisions": {
+    "C": [
+      {
+        "term": "Schaden",
+        "decision": "exclude"
+      },
+      {
+        "term": "Schäden",
+        "decision": "exclude"
+      },
+      {
+        "term": "Zerstörung",
+        "decision": "exclude"
+      }
+    ],
+    "D": [
+      {
+        "term": "gesamte Kategorie",
+        "decision": "disable_category"
+      }
+    ],
+    "E": [
+      {
+        "term": "Feuerwehr",
+        "decision": "exclude"
+      },
+      {
+        "term": "Zivilschutz",
+        "decision": "exclude"
+      },
+      {
+        "term": "Militär",
+        "decision": "exclude"
+      },
+      {
+        "term": "Spenden",
+        "decision": "exclude"
+      },
+      {
+        "term": "Wiederaufbau",
+        "decision": "exclude"
+      },
+      {
+        "term": "Sammlung",
+        "decision": "exclude"
+      },
+      {
+        "term": "Mannschaft",
+        "decision": "exclude"
+      },
+      {
+        "term": "Bataillon / Bataillone",
+        "decision": "exclude"
+      },
+      {
+        "term": "Liebesgaben",
+        "decision": "exclude"
+      },
+      {
+        "term": "Mildthätigkeit",
+        "decision": "exclude"
+      },
+      {
+        "term": "Evakuation",
+        "decision": "replace_with_explicit_forms",
+        "replacement": "Evakuation, Evakuierung, evakuieren, evakuiert"
+      }
+    ],
+    "F": [
+      {
+        "term": "Gebäudeversicherung",
+        "decision": "exclude"
+      }
+    ],
+    "G": [
+      {
+        "term": "Heimsuchung",
+        "decision": "exclude"
+      },
+      {
+        "term": "Gefahr",
+        "decision": "exclude"
+      },
+      {
+        "term": "Unglück",
+        "decision": "exclude"
+      },
+      {
+        "term": "Sicherheit",
+        "decision": "exclude"
+      },
+      {
+        "term": "Risiko",
+        "decision": "exclude"
+      },
+      {
+        "term": "Unfall",
+        "decision": "exclude"
+      },
+      {
+        "term": "Strafe Gottes",
+        "decision": "exclude"
+      },
+      {
+        "term": "Katastrophe",
+        "decision": "retain"
+      },
+      {
+        "term": "Naturkatastrophe",
+        "decision": "retain"
+      }
+    ],
+    "H": [
+      {
+        "term": "Gewässerschutz",
+        "decision": "exclude"
+      },
+      {
+        "term": "Umwelt",
+        "decision": "exclude"
+      },
+      {
+        "term": "Klima",
+        "decision": "exclude"
+      },
+      {
+        "term": "Treibhauseffekt",
+        "decision": "exclude"
+      },
+      {
+        "term": "Gletscherschmelze",
+        "decision": "exclude"
+      }
+    ]
+  }
+}

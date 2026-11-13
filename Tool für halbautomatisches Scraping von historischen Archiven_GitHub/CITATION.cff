@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Bitte dieses Werkzeug anhand von Titel, Version und Repository-URL zitieren."
+title: "ENPA Werkzeug zur halbautomatischen Korpusbildung"
+type: software
+authors:
+  - name: "ENPA-Projekt"
+version: 2.7.0
+abstract: "Konfigurierbare ENPA-Suche, Sicherung sichtbarer Treffer, regelbasierte Vorcodierung und manuelle Quellenprüfung. Die mitgelieferten Beispieldaten sind vollständig synthetisch."
+keywords:
+  - historische Zeitungen
+  - Korpusbildung
+  - Naturgefahren
+  - ENPA
